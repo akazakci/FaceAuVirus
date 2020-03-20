@@ -6,4 +6,4 @@ Utilisation des données pour l'aide aux pouvoirs publics face aux Covid-19 / Us
 Join the discussion at [corona-ml.slack.com](corona-ml.slack.com)
 
 # Contact US
-Akin Kazakci: [akin.kazakci@mines-paristech.fr](akin.kazakci@mines-paristech.fr)
+Akin Kazakci: [dataagainscorona@gmail.com](dataagainstcorona@gmail.com)
