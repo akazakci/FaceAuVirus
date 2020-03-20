@@ -3,4 +3,4 @@ Utilisation des données pour l'aide aux pouvoirs publics face aux Covid-19 / Us
 
 
 #Slack channel
-Join the discussion at corona-ml.slack.com
+Join the discussion at [corona-ml.slack.com](corona-ml.slack.com)
