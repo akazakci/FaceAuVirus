@@ -43,12 +43,10 @@ L'application utilisera toutes les sources d'informations disponibles pour propo
 # Les grands principes
 
 ## Pistage participatif
-Une alternative à la collecte et au traitement centralisé des données personnelles par une autorité centrale  Il en revient à la responsabilité de chacun
-
-Vos données seront accessibles et traitées que sur votre consentement explicit et éclairé
+Pour qu'un pistage participatif soit effectif, il en revient à la responsabilité de chacun de contribuer au système en soumettant leurs données, notamment, si ils ont contracté le Covid-19. Ceci permettra au système global de déterminer quelles autres personnes qui ont été à proximité du porteur sont sous risque de contraction. 
 
 ## Traitement des données personnelles - sur consentement explicit, de manière anonymisée et chiffrée
-Les données personnelles ne devraient être collectées que sur consentement explicite de chaque utilisateur. Les procédures d’anonymisation mis en place par les chercheurs compétents devrait être décrites et documentées.
+Dans aucun cas, le système devrait révéler l'identité des personnes qui soumettent leurs données au traitement.Les données personnelles ne devraient être collectées que sur consentement explicite de chaque utilisateur. Les procédures d’anonymisation mis en place par les chercheurs compétents devrait être décrites et documentées.
 
 ## Logiciel en accès libre
 Les algorithmes qui seront utilisés pour le traitement des données devront être mis en accès libre en grande partie, ce qui permet la vérification mais aussi l'amélioration. Ces algorithmes et les solutions logiciels annexes développés devront être documenté convenablement, pour permettre un accésibilité total. 
