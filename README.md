@@ -6,17 +6,22 @@ Donner au grand public et aux autorités nationales des outils de pistage et de 
 ## Pistage participatif -- avec anonymisation et chiffrage des données personnelles
 Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sciences.com/tech/actualites/technologie-chine-debauche-technologies-faire-face-epidemie-coronavirus-79629/) ou le [Singapour](https://www.tech.gov.sg/media/technews/tracetogether-behind-the-scenes-look-at-its-development-process) ont fait appel à la technologie pour faciliter le pistage des cas postifs pour une intervention rapide et efficace. Bien que ces applications ont été utiles, des questions se posent quant à la protection des données et des libertés individuelles. 
 
-L'alternative, qui permettrait de rester efficace dans la gestion de l'épidémie tout en garantissant les droits des individus, c'est de donner au grand public les outils pour participer à ce processus de leur propre bonne volonté et de leur permettre d'ouvrir leurs données par consentement et lorsqu'ils le souhaitent. 
+L'alternative, qui permettrait de rester efficace dans la gestion de l'épidémie tout en garantissant les droits individuels, c'est de donner au grand public les outils pour participer à ce processus de leur propre bonne volonté et de leur permettre d'ouvrir leurs données par consentement et lorsqu'ils le souhaitent. 
 
-Le projet FaceAuVirus, lancé par des chercheurs en informatique, cherche à rapidement mettre en place des procédures de collecte et de traitement des données nécessaire pour un système de pistage et de gestion complète de l'épidémie, par 
+Le projet FaceAuVirus, lancé par des chercheurs en informatique de différentes spécialités, cherche à 
+* mettre en place des procédures de collecte et de traitement des données nécessaires pour un système de pistage et de gestion complète de l'épidémie, 
+* de faire en sorte que ces procédures permettent la collecte et les traitements de manière à ne pas compromettre les droits et les libertés individuels
+* fournir des informations cléfs pour une gestion efficace face à l'épidémie.
 
 Nous travaillons aujourd'hui sur trois axes complémentaires qui sont les suivants:
 
 
 ## Axe 1. Confidentialité différentielle, Anonymisation et Inférence
-A l'autre extrême du spectrum, des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) ont émergé. Ces applications cherchent à faire des citoyens des acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control effective de l'épidemie. 
+Des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) cherchent à faire des citoyens les acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control effective de l'épidemie. 
 
-Le point faible de ces applications, dans l'état actuel, c'est qu'ils font abstraction de comment et par quelles méthodes ces données peuvent être sécurisés et anonymisés, tout en gardant la possibilité de faire des inférences effectives pour obtenir des informations pertinentes vis-à-vis de l'épidémie.
+Le point faible de ces applications, dans l'état actuel, c'est qu'ils font abstraction de comment et par quelles méthodes ces données peuvent être sécurisés et anonymisés -- lorse qu'ils seront transmises vers un serveur externe , tout en gardant la possibilité de faire des inférences effectives pour obtenir des informations pertinentes vis-à-vis de l'épidémie.
+
+Dans cet axe, nous cherchons à mettre en place des algorithmes d'anonymisation qui permettront les inférences nécessaires d'une manière fiable.
 
 ## Axe 2. Inférence des personnes immunisées, pour une relaxation progressive du confinement
 Face à la propagation du virus Covid-19, la France a été obligé d'appliquer des mesures de confinement importantes. Alors que  la nécessité de ces mesures dans un premier temps paraissent nécessaires, leurs prolongements dans le temps vont créer d'autres problèmes sociaux et économique importants. 
@@ -57,16 +62,12 @@ FaceAuVirus est un projet proposé et lancé par les enseignant-chercheurs de MI
 
 Les porteurs initiaux du projet sont:
 -
--
--
-
-
-
-
+- Akin Kazakci, Coordinateur Scientifique
+- Igor Vujic, Coordinateur 
 
 
 # Join the conversation
-Join the discussion at [dataagainstcorona.slack.com](corona-ml.slack.com)
+Join the discussion at [dataagainstcorona.slack.com](dataagainstcorona.slack.com)
 
 # Contact US
 Akin Kazakci: [dataagainscorona@gmail.com](dataagainstcorona@gmail.com)
