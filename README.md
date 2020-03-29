@@ -6,7 +6,12 @@ Donner au grand public et aux autorités nationales des outils de pistage et de 
 ## Pistage participatif -- avec anonymisation et chiffrage des données personnelles
 Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sciences.com/tech/actualites/technologie-chine-debauche-technologies-faire-face-epidemie-coronavirus-79629/) ou le [Singapour](https://www.tech.gov.sg/media/technews/tracetogether-behind-the-scenes-look-at-its-development-process) ont fait appel à la technologie pour faciliter le pistage des cas postifs pour une intervention rapide et efficace. Bien que ces applications ont été utiles, des questions se posent quant à la protection des données et des libertés individuelles.
 
-Plutot que se baser sur la capacité et la volonté d'une autorité centrale, l'application FaceAuVirus cherche à donner la responsabilité et les moyens au grand public pour contribuer au pistage et à la lutte contre le Covid-19. Grâce à cette application, chaque individu peut stocker sur son téléphone mobile ses propres données de géolocalisation et de proximité et ne les partager que de leur propres volontés, soit pour évaluer leur propres niveaux de risques, soit de notifier -- de manière anonyme --
+A l'autre extrême du spectrum, des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) ont émergé. Ces applications cherchent à faire des citoyens des acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control effective de l'épidemie. Le point faible de ces applications dans l'état, c'est qu'ils font abstraction de comment et par quelles méthodes ces données peuvent être sécurisés et anonymisés, tout en gardant la possibilité de faire des inférences effectives pour obtenir des informations pertinentes vis-à-vis de l'épidémie.
+
+Le projet FaceAuVirus, 
+
+
+
 
 ## Axe 1. 
 
