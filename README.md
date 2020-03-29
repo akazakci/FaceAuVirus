@@ -65,7 +65,7 @@ Les porteurs initiaux du projet sont:
 
 
 # Join the conversation
-Join the discussion at [dataagainstcorona.slack.com](dataagainstcorona.slack.com)
+Join the discussion at [FaceAuVirus.slack.com](https://join.slack.com/t/faceauvirus/shared_invite/zt-d7w8rbbq-OSEesNhV6vI0YhhSp6Nu6g)
 
 # Contact US
 Akin Kazakci: [dataagainscorona@gmail.com](dataagainstcorona@gmail.com)
