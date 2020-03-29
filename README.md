@@ -4,9 +4,11 @@
 Donner au grand public et aux autorités nationales des outils de pistage et de gestion de l'épidémie, dans le plus grand respect des droits et des libertés fondamentaux des citoyens.
 
 ## Pistage participatif -- avec anonymisation et chiffrage des données personnelles
-Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sciences.com/tech/actualites/technologie-chine-debauche-technologies-faire-face-epidemie-coronavirus-79629/) ou le [Singapour](https://www.tech.gov.sg/media/technews/tracetogether-behind-the-scenes-look-at-its-development-process) ont fait appel à la technologie pour faciliter le pistage des cas postifs pour une intervention rapide et efficace. Bien que ces applications ont été utiles, des questions se posent quant à la protection des données et des libertés individuelles.
+Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sciences.com/tech/actualites/technologie-chine-debauche-technologies-faire-face-epidemie-coronavirus-79629/) ou le [Singapour](https://www.tech.gov.sg/media/technews/tracetogether-behind-the-scenes-look-at-its-development-process) ont fait appel à la technologie pour faciliter le pistage des cas postifs pour une intervention rapide et efficace. Bien que ces applications ont été utiles, des questions se posent quant à la protection des données et des libertés individuelles. 
 
-Le projet FaceAuVirus, lancé par des chercheurs en informatique,  système de pistage et de gestion complète. 
+L'alternative, qui permettrait de rester efficace dans la gestion de l'épidémie tout en garantissant les droits des individus, c'est de donner au grand public les outils pour participer à ce processus de leur propre bonne volonté et de leur permettre d'ouvrir leurs données par consentement et lorsqu'ils le souhaitent. 
+
+Le projet FaceAuVirus, lancé par des chercheurs en informatique, cherche à rapidement mettre en place des procédures de collecte et de traitement des données nécessaire pour un système de pistage et de gestion complète de l'épidémie, par 
 
 Nous travaillons aujourd'hui sur trois axes complémentaires qui sont les suivants:
 
