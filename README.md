@@ -1,4 +1,4 @@
-# FaceAuVirus -- Application pour le pistage participatif du Covid-19 et la détermination des personnes déjà immunisées
+# FaceAuVirus -- Pistage participatif du Covid-19 
 
 ## Notre objectif
 Donner au grand public et aux autorités nationales des outils de pistage et de gestion de l'épidémie, dans le plus grand respect des droits et des libertés fondamentaux des citoyens.
@@ -8,9 +8,7 @@ Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sci
 
 A l'autre extrême du spectrum, des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) ont émergé. Ces applications cherchent à faire des citoyens des acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control effective de l'épidemie. Le point faible de ces applications dans l'état, c'est qu'ils font abstraction de comment et par quelles méthodes ces données peuvent être sécurisés et anonymisés, tout en gardant la possibilité de faire des inférences effectives pour obtenir des informations pertinentes vis-à-vis de l'épidémie.
 
-Le projet FaceAuVirus, 
-
-
+Le projet FaceAuVirus, vient en complément de ces deux dernières applications et dans le but d'ajouter des fonctionnalités pour en faire un système de pistage et de gestion complète. Ces fonctionnalités suivent aujourd'hui les trois axes ci-dessous.
 
 
 ## Axe 1. 
