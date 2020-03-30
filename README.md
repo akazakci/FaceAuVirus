@@ -1,32 +1,32 @@
 # FaceAuVirus -- Pistage participatif du Covid-19 
 
 ## Notre objectif
-Donner au grand public et aux autorités nationales des outils de pistage et de gestion de l'épidémie, dans le plus grand respect des droits et des libertés fondamentales des citoyens.
+Donner au grand public et aux autorités sanitaires des outils de pistage et de gestion de l'épidémie, dans le plus grand respect des droits et des libertés fondamentales des citoyens.
 
 ## Pistage participatif -- avec anonymisation et chiffrage des données personnelles
-Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sciences.com/tech/actualites/technologie-chine-debauche-technologies-faire-face-epidemie-coronavirus-79629/) ou le [Singapour](https://www.tech.gov.sg/media/technews/tracetogether-behind-the-scenes-look-at-its-development-process) ont fait appel à la technologie pour faciliter le pistage des cas postifs pour une intervention rapide et efficace. Bien que ces applications ont été utiles, des questions se posent quant à la protection des données et des libertés individuelles. 
+Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sciences.com/tech/actualites/technologie-chine-debauche-technologies-faire-face-epidemie-coronavirus-79629/) ou [Singapour](https://www.tech.gov.sg/media/technews/tracetogether-behind-the-scenes-look-at-its-development-process) ont fait appel à la technologie pour faciliter le pistage des cas postifs pour une intervention rapide et efficace. Bien que ces applications ont été utiles, des questions se posent quant à la protection des données et des libertés individuelles. 
 
-L'alternative, qui permettrait de rester efficace dans la gestion de l'épidémie tout en garantissant les droits individuels, c'est de donner au grand public les outils pour participer à ce processus de leur propre bonne volonté et de leur permettre d'ouvrir leurs données par consentement et lorsqu'ils le souhaitent. 
+L'alternative, qui permettrait un gain en éfficacité dans la gestion de l'épidémie tout en garantissant les droits individuels, consiste à donner au grand public les outils nécessaire pour participer à ce processus, et lui permettre d'ouvrir ses données par consentement et lorsqu'il le souhaite. 
 
-Le projet FaceAuVirus, lancé par des chercheurs en informatique de différentes spécialités, cherche à 
+Le projet FaceAuVirus, lancé par des chercheurs en sciences du numérique de différentes spécialités, cherche à 
 * mettre en place des procédures de collecte et de traitement des données nécessaires pour un système de pistage et de gestion complète de l'épidémie, 
 * de faire en sorte que ces procédures permettent la collecte et les traitements de manière à ne pas compromettre les droits et les libertés individuels
 * fournir des informations cléfs pour une gestion efficace face à l'épidémie.
 
-Nous travaillons aujourd'hui sur trois axes complémentaires qui sont les suivants:
+Nous travaillons aujourd'hui sur trois axes complémentaires qui sont les suivants :
 
 
-## Axe 1. Confidentialité différentielle, Anonymisation et Inférence
-Des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) cherchent à faire des citoyens les acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control effective de l'épidemie. 
+## Axe 1. Confidentialité, Anonymisation, sécurité, et Inférence
+Des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) cherchent à faire des citoyens les acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control  de l'épidemie. 
 
-Le point faible de ces applications, dans l'état actuel, c'est qu'ils font abstraction de comment et par quelles méthodes ces données peuvent être sécurisés et anonymisés -- lorse qu'ils seront transmises vers un serveur externe , tout en gardant la possibilité de faire des inférences effectives pour obtenir des informations pertinentes vis-à-vis de l'épidémie.
+Le point faible de ces applications, dans l'état actuel, est qu'elles font abstraction de comment et par quelles méthodes ces données peuvent être sécurisées et anonymisées -- lorse qu'elles seront transmises vers un serveur externe, tout en gardant la possibilité d'effectuer les simulations des modèles mathématiques de la façon la plus efficace possible. 
 
 Dans cet axe, nous cherchons à mettre en place des algorithmes d'anonymisation qui permettront les inférences nécessaires d'une manière fiable.
 
-## Axe 2. Inférence des personnes immunisées, pour une relaxation progressive du confinement
-Face à la propagation du virus Covid-19, la France a été obligé d'appliquer des mesures de confinement importantes. Alors que  la nécessité de ces mesures dans un premier temps paraissent nécessaires, leurs prolongements dans le temps vont créer d'autres problèmes sociaux et économique importants. 
+## Axe 2. Identification des personnes immunisées, pour une sortie progressive du confinement
+Face à la propagation du virus Covid-19, la France a été obligée d'appliquer des mesures de confinement strictes. Alors que  ces mesures sont nécessaires dans un premier temps, leur prolongement dans le temps risque d'engendrer des problèmes sociaux et économiques importants. 
 
-Or, nous [savons](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200306-sitrep-46-covid-19.pdf?sfvrsn=96b04adf_2) que %80 des cas sont béninges et que %15 des cas surmonte la maladie sans complications majeures. Outre les effets de mutations possible, ceci implique que %95 de la population peut sortir et continuer à leur vie et contribuer à l'activité sociale et économique, sans crainte.
+Or, d'après l'état actuel de la connaissance sur le virus, nous [savons](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200306-sitrep-46-covid-19.pdf?sfvrsn=96b04adf_2) que 80% des cas sont bénings et que 15% des cas de ne développent pas de complications majeures. Outre les effets de mutations possibles, ceci implique que 95% de la population peut sortir du confinement et contribuer ainsi à l'activité sociale et économique, avec un risque limité.
 
 Objectif : Réaliser une estimation de la probabilité d’être immunisé sur la base d’informations clés disponibles. Cette estimation permettra alors de sélectionner les personnes à qui faire passer un test d’immunisation pour recruter le plus efficacement possible des volontaires immunisés.
 
@@ -43,22 +43,22 @@ L'application utilisera toutes les sources d'informations disponibles pour propo
 # Les grands principes
 
 ## Pistage participatif
-Pour qu'un pistage participatif soit effectif, il en revient à la responsabilité de chacun de contribuer au système en soumettant leurs données, notamment, si ils ont contracté le Covid-19. Ceci permettra au système global de déterminer quelles autres personnes qui ont été à proximité du porteur sont sous risque de contraction. 
+Pour qu'un pistage participatif soit effectif, il en revient à la responsabilité de chacun.e de contribuer au système en soumettant ses données, notamment, s'il/elle a contracté le Covid-19. Ceci permettra au système de déterminer quelles autres personnes qui ont été à proximité du porteur.se sont sous risque de contraction. 
 
-## Traitement des données personnelles - sur consentement explicit, de manière anonymisée et chiffrée
-Dans aucun cas, le système devrait révéler l'identité des personnes qui soumettent leurs données au traitement.Les données personnelles ne devraient être collectées que sur consentement explicite de chaque utilisateur. Les procédures d’anonymisation mis en place par les chercheurs compétents devrait être décrites et documentées.
+## Traitement des données personnelles - sur consentement explicite, de manière anonymisée et chiffrée
+En aucun cas, le système ne révélera l'identité des personnes qui consentent à partager leurs données. Les données personnelles ne sont  collectées que sur consentement explicite de chaque utilisateur/rice. Les procédures d’anonymisation mis en place par les chercheurs compétents seront décrites et documentées.
 
 ## Logiciel en accès libre
-Les algorithmes qui seront utilisés pour le traitement des données devront être mis en accès libre en grande partie, ce qui permet la vérification mais aussi l'amélioration. Ces algorithmes et les solutions logiciels annexes développés devront être documenté convenablement, pour permettre un accésibilité total. 
+Les algorithmes qui seront utilisés pour le traitement des données seront mis en accès libre, ce qui permet la vérification mais aussi l'amélioration. Ces algorithmes et les solutions logicielles annexes développées seront documentés convenablement, pour permettre une accésibilité totale. 
 
 
 # Partenaires officiels
 Health Data Hub, APHP,...
 
 # A propos de nous
-FaceAuVirus est un projet proposé et lancé par les enseignant-chercheurs de MINES ParisTech et de l'INRIA, qui sont spécialiste de la modélisation des épidémies, de la protection et l'anonymisation des données et de la science citoyenne.
+FaceAuVirus est un projet proposé par les chercheur.se.s/enseignant-chercheur.se.s de l'Université PSL (MINES ParisTech, Dauphine),  d'Inria et du CNRS, qui sont spécialistes de la modélisation des épidémies, de la protection et l'anonymisation des données, du Machine Learning, et de la science citoyenne.
 
-Les porteurs initiaux du projet sont:
+Les porteurs initiaux du projet sont (pas fan, je mettrais plutot la liste de tous les participants):
 -
 - Akin Kazakci, Coordinateur Scientifique
 - Igor Vujic, Coordinateur 
@@ -67,5 +67,5 @@ Les porteurs initiaux du projet sont:
 # Join the conversation
 Join the discussion at [FaceAuVirus.slack.com](https://join.slack.com/t/faceauvirus/shared_invite/zt-d7w8rbbq-OSEesNhV6vI0YhhSp6Nu6g)
 
-# Contact US
+# Contact Us
 Akin Kazakci: [dataagainscorona@gmail.com](dataagainstcorona@gmail.com)
