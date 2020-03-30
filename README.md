@@ -1,9 +1,9 @@
-# FaceAuVirus -- Pistage participatif du Covid-19 
+# FaceAuVirus -- Outils de pistage et de gestion de l'épidémie Covid-19 
 
 ## Notre objectif
 Donner au grand public et aux autorités sanitaires des outils de pistage et de gestion de l'épidémie, dans le plus grand respect des droits et des libertés fondamentales des citoyens.
 
-## Pistage participatif -- avec anonymisation et chiffrage des données personnelles
+## Pistage du Covid-19 -- avec anonymisation et chiffrage des données personnelles
 Face au virus Covid-19 plusieurs pays tels que la [Chine](https://www.futura-sciences.com/tech/actualites/technologie-chine-debauche-technologies-faire-face-epidemie-coronavirus-79629/) ou [Singapour](https://www.tech.gov.sg/media/technews/tracetogether-behind-the-scenes-look-at-its-development-process) ont fait appel à la technologie pour faciliter le pistage des cas postifs pour une intervention rapide et efficace. Bien que ces applications ont été utiles, des questions se posent quant à la protection des données et des libertés individuelles. 
 
 L'alternative, qui permettrait un gain en éfficacité dans la gestion de l'épidémie tout en garantissant les droits individuels, consiste à donner au grand public les outils nécessaire pour participer à ce processus, et lui permettre d'ouvrir ses données par consentement et lorsqu'il le souhaite. 
