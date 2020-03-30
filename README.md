@@ -16,7 +16,7 @@ Le projet FaceAuVirus, lancé par des chercheurs en sciences du numérique de di
 Nous travaillons aujourd'hui sur trois axes complémentaires qui sont les suivants :
 
 
-## Axe 1. Confidentialité, Anonymisation, sécurité, et Inférence
+## Axe 1. Confidentialité, Anonymisation, Sécurité, et Inférence
 Des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) cherchent à faire des citoyens les acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control  de l'épidemie. 
 
 Le point faible de ces applications, dans l'état actuel, est qu'elles font abstraction de comment et par quelles méthodes ces données peuvent être sécurisées et anonymisées -- lorse qu'elles seront transmises vers un serveur externe, tout en gardant la possibilité d'effectuer les simulations des modèles mathématiques de la façon la plus efficace possible. 
@@ -53,16 +53,22 @@ Les algorithmes qui seront utilisés pour le traitement des données seront mis 
 
 
 # Partenaires officiels
-Health Data Hub, APHP,...
+Health Data Hub, CNIL (à confirmer), APHP (à confirmer),...
 
 # A propos de nous
 FaceAuVirus est un projet proposé par les chercheur.se.s/enseignant-chercheur.se.s de l'Université PSL (MINES ParisTech, Dauphine),  d'Inria et du CNRS, qui sont spécialistes de la modélisation des épidémies, de la protection et l'anonymisation des données, du Machine Learning, et de la science citoyenne.
 
-Les porteurs initiaux du projet sont (pas fan, je mettrais plutot la liste de tous les participants):
--
-- Akin Kazakci, Coordinateur Scientifique
-- Igor Vujic, Coordinateur 
-
+- Akin Kazakci, MINES ParisTech - PSL
+- Igor Vujic, MINES ParisTech - PSL 
+- Jamal Atif, Dauphine - PSL
+- Laurent Massoulié, INRIA
+- Philippe Jacquet, INRIA
+- Aline Carneiro Viana, INRIA
+- Cedric Adjih, INRIA
+- Terrence Tran, MINES ParisTech - PSL
+- Luca Ganassali, INRIA
+- Raphael Pinot, Dauphine - PSL
+- Yann Chevaleyre, Dauphine - PSL
 
 # Join the conversation
 Join the discussion at [FaceAuVirus.slack.com](https://join.slack.com/t/faceauvirus/shared_invite/zt-d7w8rbbq-OSEesNhV6vI0YhhSp6Nu6g)
