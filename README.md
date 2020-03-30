@@ -74,4 +74,4 @@ FaceAuVirus est un projet proposé par les chercheur.se.s/enseignant-chercheur.s
 Join the discussion at [FaceAuVirus.slack.com](https://join.slack.com/t/faceauvirus/shared_invite/zt-d7w8rbbq-OSEesNhV6vI0YhhSp6Nu6g)
 
 # Contact Us
-Akin Kazakci: [dataagainscorona@gmail.com](dataagainstcorona@gmail.com)
+ [dataagainscorona@gmail.com](dataagainstcorona@gmail.com)
