@@ -64,7 +64,8 @@ FaceAuVirus est un projet proposé par les chercheur.se.s/enseignant-chercheur.s
 - Cedric Adjih, INRIA
 - Terrence Tran, MINES ParisTech - PSL
 - Luca Ganassali, INRIA
-- Raphael Pinot, Dauphine - PSL
+- Rafael Pinot, Dauphine - PSL
+- Raphael Ettedgui, Dauphine - PSL
 - Yann Chevaleyre, Dauphine - PSL
 
 # Join the conversation
