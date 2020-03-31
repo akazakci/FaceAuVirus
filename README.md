@@ -17,11 +17,8 @@ Nous travaillons aujourd'hui sur trois axes complémentaires qui sont les suivan
 
 
 ## Axe 1. Confidentialité, Anonymisation, Sécurité, et Inférence
-Des applications comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/) cherchent à faire des citoyens les acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au control  de l'épidemie. 
-
-Le point faible de ces applications, dans l'état actuel, est qu'elles font abstraction de comment et par quelles méthodes ces données peuvent être sécurisées et anonymisées -- lorse qu'elles seront transmises vers un serveur externe, tout en gardant la possibilité d'effectuer les simulations des modèles mathématiques de la façon la plus efficace possible. 
-
-Dans cet axe, nous cherchons à mettre en place des algorithmes d'anonymisation qui permettront les inférences nécessaires d'une manière fiable.
+ 
+De nombreuses applications, comme [CovidWatch](https://www.covid-watch.org/) et [PrivateKit](https://privatekit.mit.edu/), cherchent à faire des citoyens les acteurs essentiels de la collecte et du traitement des données de localisation et de contact nécessaires au pistage et au contrôle de l’épidémie. Cependant, cette volonté de contrôle ne doit pas se faire au détriment du respect de la vie privée des utilisateurs. Certaines applications américaines comme [CovidWatch](https://www.covid-watch.org/) présentent une volonté claire de protection des données de leurs utilisateurs, même si le cadre légal américain n’est pas aussi exigeant que le nôtre (RGPD). Il faut donc construire des modèles mathématiques qui soient à la fois précis et respectueux de la réglementation européenne en matière de protection des données. Dans cet axe, nous cherchons à mettre en place des méthodes d’anonymisation (e.g. k-anonymat ou confidentialité différentielle) et de protection des données (e.g. hachage des identifiants) qui permettront les inférences nécessaires d’une manière fiable et précise.
 
 ## Axe 2. Identification des personnes immunisées, pour une sortie progressive du confinement
 Face à la propagation du virus Covid-19, la France a été obligée d'appliquer des mesures de confinement strictes. Alors que  ces mesures sont nécessaires dans un premier temps, leur prolongement dans le temps risque d'engendrer des problèmes sociaux et économiques importants. 
