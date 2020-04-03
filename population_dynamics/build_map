@@ -1,0 +1,21 @@
+import folium as f
+import json
+import os
+
+FR_LAT = 46.2276
+FR_LONG = 2.2137
+grid_path = os.path.join(os.getcwd(),'geojson', 'departements-version-simplifiee.geojson') 
+grid_geojson = json.load(open(grid_path))
+
+m= f.Map(
+    location=[FR_LAT, FR_LONG],
+    tiles='Mapbox Bright',
+    zoom_start=6
+)
+
+f.GeoJson(
+    grid_geojson,
+    name='geojson'
+).add_to(m)
+f.LayerControl().add_to(m)
+m.save('index.html')
