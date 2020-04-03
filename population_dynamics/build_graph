@@ -1,0 +1,39 @@
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta 
+
+filename = '03.01.2020.csv' #change path of files 
+
+df = pd.read_csv(filename)
+
+proximity_threshold =  0.000015 # (approxi 1m); Important assumption, check for reasonable values and always report values chosen
+time_threshold = 10 # Important assumption, check for reasonable values and always report values chosen
+contact_list = []
+for index, row in df.iterrows():
+
+   # print (index)
+   # print (row)
+    person = row['id']
+    time = row['time'].to_pydatetime() # shitty bug hot fix: time becomes <class 'pandas._libs.tslibs.timestamps.Timestamp'> instead of datetime
+   # print (type(time))
+    lat = row['lat']
+    long = row['long']
+
+
+    # Get rows whose latitude and longitude are close to the "row" (by proximity_threshold)
+    geo_slice = df[(df['lat'] < lat + proximity_threshold) & (df['lat'] > lat - proximity_threshold )]
+    geo_slice = geo_slice[( geo_slice['long'] < long + proximity_threshold) & (geo_slice['long'] > long - proximity_threshold )]
+
+    # Among the previous rows, find rows who are temporally close 
+    t_slice_minus = (time + timedelta(minutes=-10))
+    t_slice_plus = (time + timedelta(minutes=+10))
+    # print ('t-',t_slice_minus)
+    # print ('t+',t_slice_plus)
+    time_slice =  geo_slice[( geo_slice['time'] < t_slice_plus) & (geo_slice['time'] > t_slice_minus )]
+    time_slice = time_slice[time_slice['id'] != person]
+
+    #print (index,  len(time_slice.index))
+    contact_list.append([person, time.strftime("%m/%d/%Y, %H:%M:%S"),lat,long, time_slice['id'].to_list() ])
+
+contact_list =  pd.DataFrame(contact_list,  columns = ['id', 'time', 'lat','long','contact_list'])
+contact_list.to_csv('cg_03.01.2020',  index=False)
